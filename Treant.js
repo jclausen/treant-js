@@ -17,7 +17,7 @@
  * Dave Goodchild, https://github.com/dlgoodchild
  */
 
-;( function() {
+;( function( exports ) {
     // Polyfill for IE to use startsWith
     if (!String.prototype.startsWith) {
         String.prototype.startsWith = function(searchString, position){
@@ -2166,6 +2166,6 @@
     };
 
     /* expose constructor globally */
-    window.Treant = Treant;
+    exports.Treant = Treant;
 
-})();
+})( this.hasOwnProperty('window') ? window: module.exports );
