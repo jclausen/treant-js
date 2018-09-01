@@ -1354,6 +1354,9 @@
 
             this.children = [];
 
+            this.X = 0;
+            this.Y = 0;
+
             return this;
         },
 
