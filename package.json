@@ -1,5 +1,5 @@
 {
-  "name": "treantjs",
+  "name": "treant-js",
   "version": "1.0.0",
   "description": "JavaScipt library for visualization of tree diagrams",
   "main": "Treant.js",
